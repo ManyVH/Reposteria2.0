@@ -1,0 +1,18 @@
+<app-encabezado></app-encabezado>
+
+<body class="cuerpo">
+    <div class="titulo">
+        <h3 >Nombre del Reporte</h3>
+        <h3 >Fecha</h3>
+        <h3 >Estatus</h3>
+    </div>
+    <div class="titulo" *ngFor="let item of valores">
+        
+            <h3 >Reporte </h3>
+            <h3 >{{item}} </h3>
+            <h3 >Autorizado</h3>
+        
+    </div>
+    
+
+</body>
